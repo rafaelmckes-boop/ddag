@@ -1,7 +1,7 @@
 Ik heb in Base44 een Space shooter game gebouwd.
 Het doel is om een zo hoog mogelijke score te halen op een difficulty naar keuze.
 
-Presentatie modes 3 minuten laten zien.
+#Presentatie:
 
 Van de 2 tools die ik gebruikt heb om deze game te maken vond ik Base44 toch het beste. Je mag misschien niet zoveel prompts gebruiken als je wilt, maar het maakt je werk wel veel sneller
 en beter dan z.ai.
