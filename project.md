@@ -1,36 +1,51 @@
-# Projectidee & Scope
+# project.md
 
 ## Projectnaam
 
-Hollowcaster Bossfight (Roblox)
+Stellar Ascension
 
 ## Korte beschrijving
 
-Dit project is een bossfight gebaseerd op de Hollowcaster, gemaakt in Roblox Studio. Spelers nemen het op tegen een sterke eindbaas met verschillende aanvallen en fases. Het doel is om een uitdagend en leuk gevecht te ontwerpen dat spelers motiveert om strategie te gebruiken.
+Stellar Ascension is een 2D space shooter waarin de speler door 10 steeds moeilijker wordende levels vliegt. De speler verslaat vijanden en eindbazen, verzamelt punten en gebruikt een skill tree om zijn schip te upgraden. Het doel is om een zo hoog mogelijke score te behalen.
 
 ## Doelgroep
 
-* Roblox-spelers
-* Gamers die van actie- en vechtgames houden
-* Jongeren die interesse hebben in game-ontwikkeling
+* Gamers tussen 12 en 25 jaar
+* Studenten / beginners in game development
+* Casual spelers die houden van arcade-achtige games
 
-## In Scope
+## In scope
 
-Wat valt **wel** binnen dit project?
+* Bestuurbaar ruimteschip
+* 10 moeilijkheidsniveaus
+* Verschillende vijandtypes
+* Boss-gevechten
+* Score-systeem
+* Skill tree met upgrades (bijv. damage, snelheid, health)
+* Simpele UI (menu, score, upgrades)
 
-* Ontwerpen van de Hollowcaster-boss
-* Basis AI voor aanvallen en beweging
-* Meerdere aanvalspatronen
-* Gezondheidsbalk voor de boss
-* Simpele arena
-* Basis geluidseffecten
+## Out of scope
 
-## Out of Scope
+* Multiplayer
+* Online leaderboard
+* Verhaal/cutscenes
+* Complexe 3D-graphics
+* Microtransacties
 
-Wat valt **niet** binnen dit project?
+---
 
-* Online multiplayer-functionaliteit
-* Uitgebreid verhaal of cutscenes
-* Complex levelsysteem
-* Geavanceerde animaties
-* In-game shop of microtransacties
+# prompts.md
+
+## Gebruikte AI-prompts
+
+1. "Help me een concept te bedenken voor een 2D space shooter game met upgrades."
+
+2. "Genereer ideeën voor een skill tree in een space shooter."
+
+3. "Schrijf voorbeeldcode voor vijanden in een arcade shooter game."
+
+4. "Bedenk 10 moeilijkheidslevels voor een space shooter."
+
+5. "Hoe maak ik een score- en upgrade-systeem in een game?"
+
+6. "Geef feedback op mijn gameconcept en hoe ik het kan verbeteren."
