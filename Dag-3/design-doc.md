@@ -1,60 +1,84 @@
-# Design Document – Hollowcaster Bossfight
+Tech Stack
 
-## Tech Stack
+Game engine: Unity (2D)
 
-* **Game Engine:** Roblox Studio
-* **Programmeertaal:** Lua (Roblox Lua)
-* **Frameworks/Libraries:** Roblox standaard services (RunService, TweenService, DataStoreService)
-* **Versiebeheer:** Roblox Studio versiegeschiedenis
-* **Assets:** Roblox Toolbox en eigen modellen
-* **Audio:** Roblox Sound Service
+Programmeertaal: C#
 
----
+Versiebeheer: Git + GitHub
 
-## Globale Architectuur
+Grafische assets: Aseprite / OpenGameArt
 
-De game is opgebouwd uit verschillende scripts en onderdelen:
+Audio: Bfxr / freesound.org
 
-* **Boss Script:** Regelt AI, aanvallen en fases van de Hollowcaster
-* **Health System:** Beheert de health van de boss en de speler
-* **UI Script:** Toont de gezondheidsbalk en meldingen
-* **Arena Script:** Beheert de omgeving en grenzen
-* **Sound Script:** Regelt geluidseffecten
+Ontwikkelomgeving: Visual Studio / VS Code
 
-### Structuur
+Platform: PC (Windows)
 
-* ServerScriptService
+Globale Architectuur
+Overzicht
 
-  * BossController
-  * DamageHandler
-* StarterGui
+Het spel is opgebouwd volgens een modulaire structuur met gescheiden systemen voor gameplay, UI en data-opslag.
 
-  * HealthBarUI
-* Workspace
+Componenten
 
-  * HollowcasterModel
-  * Arena
-* ReplicatedStorage
+Player System: Beweging, schieten, health
 
-  * Animations
-  * Assets
+Enemy System: AI, spawning, gedrag
 
----
+Boss System: Speciale patronen en aanvallen
 
-## Belangrijke Keuzes
+Skill Tree System: Upgrades en statistieken
 
-* Gebruik van server-side scripts voor damage en AI om cheaten te voorkomen
-* Simpele AI-structuur om binnen de tijd te blijven
-* Beperkt aantal aanvallen (3–4) voor overzicht
-* Hergebruik van bestaande Roblox-assets waar mogelijk
-* Focus op singleplayer-ervaring
+Score System: Puntentelling en opslag
 
----
+UI System: Menu’s, HUD, upgrade-scherm
 
-## Bekende Risico’s
+Datastroom
 
-* Onverwachte bugs in AI-gedrag
-* Performanceproblemen bij meerdere effecten
-* Onbalans in moeilijkheidsgraad
-* Tijdgebrek voor uitgebreide animaties
-* Problemen met synchronisatie tussen client en server
+Speler start level
+
+Enemy Spawner genereert vijanden
+
+Player en vijanden interacteren
+
+Score wordt bijgewerkt
+
+Skillpunten worden opgeslagen
+
+Volgend level wordt geladen
+
+Belangrijke Keuzes
+
+Keuze voor Unity vanwege snelle 2D-ontwikkeling
+
+Gebruik van ScriptableObjects voor upgrades
+
+Singleplayer-only om scope klein te houden
+
+Simpele pixel-art stijl voor snelle productie
+
+Lokale opslag voor progressie (geen server)
+
+Bekende Risico’s
+
+Tijdgebrek bij implementatie van skill tree
+
+Balanceren van moeilijkheidsgraad
+
+Bugs in collision-detectie
+
+Prestatieproblemen bij veel vijanden
+
+Onvoldoende playtesting
+
+Mitigatie
+
+Begin met een simpele skill tree (3–5 upgrades)
+
+Test elk level apart
+
+Regelmatig commits maken
+
+Basis performance testing
+
+Feedback vragen aan klasgenoten
