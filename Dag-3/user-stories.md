@@ -1,84 +1,146 @@
-# User Stories – Hollowcaster Bossfight
+# project.md
 
-## User Story 1
+## Projectnaam
 
-**Story:** Als speler wil ik de Hollowcaster kunnen aanvallen zodat ik hem kan verslaan.
+Stellar Ascension
 
-**Prioriteit:** Must
+## Korte beschrijving
 
-**Acceptatiecriteria:**
+Stellar Ascension is een 2D space shooter waarin de speler door 10 steeds moeilijker wordende levels vliegt. De speler verslaat vijanden en eindbazen, verzamelt punten en gebruikt een skill tree om zijn schip te upgraden. Het doel is om een zo hoog mogelijke score te behalen.
 
-* Speler kan schade toebrengen aan de boss
-* Aanvallen registreren correct
-* Boss verliest health bij hits
+## Doelgroep
 
----
+* Gamers tussen 12 en 25 jaar
+* Studenten / beginners in game development
+* Casual spelers die houden van arcade-achtige games
 
-## User Story 2
+## In scope
 
-**Story:** Als speler wil ik verschillende aanvallen van de boss zien zodat het gevecht uitdagend blijft.
+* Bestuurbaar ruimteschip
+* 10 moeilijkheidsniveaus
+* Verschillende vijandtypes
+* Boss-gevechten
+* Score-systeem
+* Skill tree met upgrades (bijv. damage, snelheid, health)
+* Simpele UI (menu, score, upgrades)
 
-**Prioriteit:** Must
+## Out of scope
 
-**Acceptatiecriteria:**
-
-* Boss heeft minimaal 3 verschillende aanvallen
-* Aanvallen wisselen automatisch
-* Aanvallen zijn duidelijk zichtbaar
-
----
-
-## User Story 3
-
-**Story:** Als speler wil ik een gezondheidsbalk zien zodat ik weet hoe ver ik ben in het gevecht.
-
-**Prioriteit:** Must
-
-**Acceptatiecriteria:**
-
-* Healthbar is zichtbaar op het scherm
-* Healthbar verandert bij schade
-* Healthbar verdwijnt bij overwinning
+* Multiplayer
+* Online leaderboard
+* Verhaal/cutscenes
+* Complexe 3D-graphics
+* Microtransacties
 
 ---
 
-## User Story 4
+# prompts.md
 
-**Story:** Als speler wil ik dat de boss fases heeft zodat het gevecht spannender wordt.
+## Gebruikte AI-prompts
 
-**Prioriteit:** Nice
+1. "Help me een concept te bedenken voor een 2D space shooter game met upgrades."
 
-**Acceptatiecriteria:**
+2. "Genereer ideeën voor een skill tree in een space shooter."
 
-* Boss verandert gedrag bij lage health
-* Nieuwe aanvallen in latere fases
-* Overgang tussen fases is duidelijk
+3. "Schrijf voorbeeldcode voor vijanden in een arcade shooter game."
 
----
+4. "Bedenk 10 moeilijkheidslevels voor een space shooter."
 
-## User Story 5
+5. "Hoe maak ik een score- en upgrade-systeem in een game?"
 
-**Story:** Als speler wil ik geluidseffecten horen zodat het gevecht realistischer aanvoelt.
-
-**Prioriteit:** Nice
-
-**Acceptatiecriteria:**
-
-* Geluid bij aanvallen
-* Geluid bij schade
-* Geluid bij overwinning/verlies
+6. "Geef feedback op mijn gameconcept en hoe ik het kan verbeteren."
 
 ---
 
-## User Story 6
+# user-stories.md
 
-**Story:** Als speler wil ik in een duidelijke arena vechten zodat ik niet vast kom te zitten.
+## User Stories
 
-**Prioriteit:** Must
+### 1. Besturen van het ruimteschip (Must)
+
+**Als speler wil ik mijn ruimteschip kunnen besturen zodat ik vijanden kan ontwijken en aanvallen.**
 
 **Acceptatiecriteria:**
 
-* Arena heeft geen glitches
-* Speler kan vrij bewegen
-* Geen onzichtbare muren
+* Speler kan bewegen met toetsenbord/controller
+* Beweging is soepel
+* Speler kan stoppen en versnellen
 
+### 2. Vijanden verslaan (Must)
+
+**Als speler wil ik vijanden kunnen neerschieten zodat ik punten kan verdienen.**
+
+**Acceptatiecriteria:**
+
+* Vijanden verschijnen per level
+* Vijanden kunnen geraakt worden
+* Vijanden verdwijnen bij 0 HP
+* Speler krijgt punten
+
+### 3. Boss battles spelen (Must)
+
+**Als speler wil ik tegen eindbazen vechten zodat het spel uitdagend blijft.**
+
+**Acceptatiecriteria:**
+
+* Elke paar levels een boss
+* Boss heeft meer HP
+* Boss heeft speciale aanvallen
+* Boss verslaan geeft bonuspunten
+
+### 4. Skill tree gebruiken (Must)
+
+**Als speler wil ik mijn schip kunnen upgraden zodat ik sterker word.**
+
+**Acceptatiecriteria:**
+
+* Skill tree menu is toegankelijk
+* Upgrades kosten punten
+* Stats verbeteren zichtbaar
+* Upgrades worden opgeslagen
+
+### 5. Score bijhouden (Must)
+
+**Als speler wil ik mijn score kunnen zien zodat ik mezelf kan verbeteren.**
+
+**Acceptatiecriteria:**
+
+* Score is zichtbaar tijdens het spel
+* Score wordt bijgewerkt na kills
+* Eindscore wordt getoond
+
+### 6. Moeilijkheid kiezen (Nice)
+
+**Als speler wil ik een moeilijkheidsgraad kunnen kiezen zodat het spel bij mijn niveau past.**
+
+**Acceptatiecriteria:**
+
+* Keuze uit 10 levels
+* Moeilijkheid beïnvloedt vijanden
+* Keuze wordt onthouden
+
+### 7. Instellingen aanpassen (Nice)
+
+**Als speler wil ik instellingen aanpassen zodat ik comfortabel kan spelen.**
+
+**Acceptatiecriteria:**
+
+* Volume instelbaar
+* Besturing aanpasbaar
+* Instellingen worden opgeslagen
+
+---
+
+# prompts.md (Aanvulling)
+
+## Prompts voor User Stories
+
+1. "Genereer 6 user stories voor een space shooter game met skill tree."
+
+2. "Schrijf user stories in het formaat: Als [gebruiker] wil ik [actie] zodat [waarde]."
+
+3. "Maak per user story acceptatiecriteria in bulletpoints."
+
+4. "Bepaal prioriteit (must/nice) voor elke user story."
+
+5. "Controleer of de user stories haalbaar zijn in 1,5 dag."
